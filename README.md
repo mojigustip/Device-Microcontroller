@@ -24,6 +24,7 @@ Unit Kontrol (Control Unit) adalah bagian dari CPU yang mengatur dan mengendalik
 Selama proses ini, Unit Kontrol mengeluarkan sinyal kontrol yang tepat untuk memastikan setiap komponen beroperasi secara sinkron dan efisien. Misalnya, saat operasi aritmatika diperlukan, Unit Kontrol akan mengarahkan data ke ALU dan mengaktifkan fungsi yang sesuai.
 Dengan koordinasi yang tepat dari Unit Kontrol, komputer dapat menjalankan program secara efisien dan akurat, memastikan setiap instruksi dieksekusi dalam urutan dan cara yang benar.
 # Diagram Alur Control Unit
+![Doc1_page-0001](https://github.com/user-attachments/assets/112f8fe3-0efd-416b-ba89-a33afb275ac1)
 
 # Kesimpulan
 Raspberry Pi 4 Model B adalah komputer papan tunggal yang dapat berfungsi sebagai mikrokontroler dalam berbagai proyek embedded dan IoT. Ditenagai oleh prosesor Broadcom BCM2711 Quad-core Cortex-A72 64-bit @ 1.5 GHz dan RAM hingga 8GB, perangkat ini menawarkan kinerja tinggi untuk aplikasi kompleks. Dengan 40-pin GPIO, Raspberry Pi 4 memungkinkan interaksi dengan berbagai sensor dan aktuator, menjadikannya pilihan fleksibel untuk otomasi dan kontrol. Meskipun lebih canggih dibandingkan mikrokontroler tradisional, Raspberry Pi 4 tetap dapat digunakan untuk mengontrol perangkat eksternal melalui antarmuka GPIO-nya.
