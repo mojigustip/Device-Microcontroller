@@ -10,4 +10,22 @@ Port I/O: 2x USB 3.0, 2x USB 2.0, 2x Micro-HDMI (mendukung hingga 4Kp60), 40-pin
 Daya: Port USB-C, membutuhkan adaptor 5V/3A
 # Komponen Utama Unit Kontrol dan Cara Kerjanya
 Unit Kontrol (Control Unit) adalah bagian dari CPU yang mengatur dan mengendalikan operasi komputer. Tugas utamanya adalah mengarahkan aliran data antara CPU, memori, dan perangkat I/O, serta memastikan instruksi dieksekusi dengan benar.
+# Komponen Utama Unit Kontrol:
+-Decoder Instruksi: Menganalisis opcode dari instruksi yang diambil dan menentukan operasi yang harus dilakukan.
+-Pengatur Waktu (Clock) dan Pewaktu (Timer): Mengatur sinkronisasi dan durasi setiap operasi mikro dalam CPU.
+-Sinyal Kontrol: Menghasilkan sinyal yang mengendalikan perpindahan data antar register, operasi ALU, dan fungsi lainnya dalam sistem.
+-Register Status (Flag): Menyimpan informasi tentang status terakhir dari operasi yang dilakukan, seperti hasil negatif, nol, atau terjadinya overflow.
+# Cara Kerja Unit Kontrol:
+-Unit Kontrol bekerja melalui serangkaian langkah yang dikenal sebagai siklus instruksi, yang terdiri dari:
+-Fetch (Pengambilan Instruksi): Mengambil instruksi dari memori utama berdasarkan alamat yang ditunjukkan oleh Program Counter (PC).
+-Decode (Dekode Instruksi): Menganalisis instruksi yang diambil untuk menentukan operasi yang akan dilakukan dan operand yang terlibat.
+-Execute (Eksekusi Instruksi): Melaksanakan operasi yang ditentukan, seperti operasi aritmatika atau logika, dengan bantuan ALU.
+-Write Back (Penulisan Kembali): Menyimpan hasil eksekusi ke register atau memori yang sesuai.
+Selama proses ini, Unit Kontrol mengeluarkan sinyal kontrol yang tepat untuk memastikan setiap komponen beroperasi secara sinkron dan efisien. Misalnya, saat operasi aritmatika diperlukan, Unit Kontrol akan mengarahkan data ke ALU dan mengaktifkan fungsi yang sesuai.
+Dengan koordinasi yang tepat dari Unit Kontrol, komputer dapat menjalankan program secara efisien dan akurat, memastikan setiap instruksi dieksekusi dalam urutan dan cara yang benar.
+# Diagram Alur Control Unit
+
+# Kesimpulan
+Raspberry Pi 4 Model B adalah komputer papan tunggal yang dapat berfungsi sebagai mikrokontroler dalam berbagai proyek embedded dan IoT. Ditenagai oleh prosesor Broadcom BCM2711 Quad-core Cortex-A72 64-bit @ 1.5 GHz dan RAM hingga 8GB, perangkat ini menawarkan kinerja tinggi untuk aplikasi kompleks. Dengan 40-pin GPIO, Raspberry Pi 4 memungkinkan interaksi dengan berbagai sensor dan aktuator, menjadikannya pilihan fleksibel untuk otomasi dan kontrol. Meskipun lebih canggih dibandingkan mikrokontroler tradisional, Raspberry Pi 4 tetap dapat digunakan untuk mengontrol perangkat eksternal melalui antarmuka GPIO-nya.
+
 
